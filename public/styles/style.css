@@ -1,0 +1,250 @@
+
+/* header{
+  background-color: aqua;
+} */
+.gradient-background{
+  height: 100px;
+  width: 100px;
+}
+.navbar-mainbg{
+  margin: 0px;
+  padding: 0px;
+  
+}
+.container-fluid{
+  background-color:#797777;
+  margin-top: 0px;
+  padding: 15px;
+}
+.nav-item{
+  margin-right:25%;
+  font-size: 20px;
+  text-shadow: white;
+}
+.navbar-brand{
+  margin-right: 50%;
+  font-weight: 900;
+  color: antiquewhite;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+  position: relative;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+.col1{
+  background: rgb(66,62,140);
+  background: linear-gradient(90deg, rgba(66,62,140,1) 0%, rgba(2,2,28,1) 33%, rgba(2,38,67,1) 75%, rgba(0,0,0,1) 96%, rgba(58,91,98,1) 99%);
+}
+.row{
+  background: rgb(66,62,140);
+background: linear-gradient(90deg, rgba(66,62,140,1) 0%, rgba(2,2,28,1) 33%, rgba(2,38,67,1) 68%, rgba(1,103,138,1) 89%, rgba(0,212,255,1) 100%);
+}
+.text {
+  width: 20%;
+  top: 50%;
+  position: absolute;
+  left: 10%;
+  border-bottom: 5px solid white;
+  overflow: hidden;
+  animation: animate 2s linear forwards;
+  font-size: 30px;
+  line-height: 10px;
+}
+.text-form{
+  color: white;
+  display: block;
+}
+.text h1 {
+  color: white;
+}
+.side-text{
+  width: 40%;
+  height: 20%;
+  margin-left: 20%;
+margin-top: 10%;
+}
+.form2{
+  width: 20%;
+  height: 40%;
+  background-color: black;
+  margin-left: 50%;
+}
+.text-form1:hover{
+  background-color: grey;
+}
+#fname,#lname{
+  margin: 6px;
+}
+@keyframes animate {
+  0% {
+      width: 0px;
+      height: 0px;
+  }
+  30% {
+      width: 50px;
+      height: 0px;
+  }
+  40% {
+      width: 50px;
+      height: 80px;
+  }
+}
+.nav-item :hover{
+  background-color: white;
+  font-weight: bolder;
+}
+.gap{
+  width: 100%;
+  background: rgb(66,62,140);
+  background: linear-gradient(90deg, rgba(66,62,140,1) 0%, rgba(2,2,28,1) 33%, rgba(2,38,67,1) 68%, rgba(1,103,138,1) 89%, rgba(0,212,255,1) 100%);
+  height: 30px;
+}
+.container1{
+  background-color: #f7c119;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+
+  
+
+}
+
+@media(max-width:480px)
+{
+  .features{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    overflow:hidden;
+    top: 133%;
+  }
+  .video2{
+    height: 700px;
+  }
+  .video1{
+    width:100px;
+    position: absolute;
+  }
+  .col1{
+    background: rgb(66,62,140);
+    background: linear-gradient(90deg, rgba(66,62,140,1) 0%, rgba(2,2,28,1) 33%, rgba(2,38,67,1) 75%, rgba(0,0,0,1) 96%, rgba(58,91,98,1) 99%);
+  }
+  .row{
+    background: rgb(66,62,140);
+  background: linear-gradient(90deg, rgba(66,62,140,1) 0%, rgba(2,2,28,1) 33%, rgba(2,38,67,1) 68%, rgba(1,103,138,1) 89%, rgba(0,212,255,1) 100%);
+  }
+  .body-top{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+  }
+  .indexphoto{
+    position: absolute;
+    top:80%;
+    right: 40%;
+    padding-left: 130px;
+
+  }
+  .inphoto{
+    width: 300%;
+    height: 300%;
+  }
+
+  .text {
+    width: 80%;
+    top: 30%;
+    position: absolute;
+    left: 2%;
+    display: inline-block;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animate 2s linear forwards;
+    font-size: 30px;
+    line-height: 10px;
+  }
+  .text1{
+    font-display: inline-block;
+  }
+  .main{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .testimonal-image {
+    width: 30%;
+    border-radius: 50%;
+    height: 30%;
+    margin: 20px;
+    justify-content: center;
+}
+.carousel-inner {
+  background: rgb(66,62,140);
+background: linear-gradient(90deg, rgba(66,62,140,1) 0%, rgba(2,2,28,1) 33%, rgba(2,38,67,1) 68%, rgba(1,103,138,1) 89%, rgba(0,212,255,1) 100%);
+  padding: 7% 15%;
+  text-align: center;
+  font-family: Montserrat-Black;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+  line-height: 1rem;
+  overflow: hidden;
+}
+.image1{
+  margin-top: 60px;
+}
+.carousel{
+  position: absolute;
+  top: 100%;
+}
+}
+@media(min-width:769px)
+{
+  .features{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    overflow: hidden;
+  }
+  .text2{
+    position: relative;
+overflow: hidden;
+text-align: center;
+  }
+	.indexphoto{
+    margin-left: 50%;
+    position: absolute;
+    width: 5px;
+    top: 70%;
+    /* margin-right: 10%; */
+  }
+  .main{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .testimonal-image {
+    width: 10%;
+    border-radius: 50%;
+    height: 10%;
+    margin: 20px;
+    justify-content: center;
+}
+.carousel-inner {
+  background: rgb(66,62,140);
+background: linear-gradient(90deg, rgba(66,62,140,1) 0%, rgba(2,2,28,1) 33%, rgba(2,38,67,1) 68%, rgba(1,103,138,1) 89%, rgba(0,212,255,1) 100%);
+  padding: 7% 15%;
+  text-align: center;
+  font-family: Montserrat-Black;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+  line-height: 1rem;
+}
+.btn{
+  background-color: black;
+}
+}
